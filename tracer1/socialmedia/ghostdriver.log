@@ -1,0 +1,19 @@
+[INFO  - 2017-04-17T12:35:18.290Z] GhostDriver - Main - running on port 20570
+[INFO  - 2017-04-17T12:35:21.597Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T12:35:21.597Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T12:35:21.597Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T12:35:21.597Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 52828340-236a-11e7-8132-1743a311f7a3
+[ERROR - 2017-04-17T12:35:25.192Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - page.onError - msg: Request returned 0
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-04-17T12:35:25.193Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - page.onError - stack:
+  logError (https://static.licdn.com/scds/concat/common/js?h=7ndrn0f9fw0hum7uoqcjcnzne-95d8d303rtd0n9wj4dcjbnh2c-7vr4nuab43rzvy2pgq7yvvxjk-9qa4rfxekcw3lt2c06h7p0kmf:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-04-17T12:35:25.196Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - page.onError - msg: [object XMLHttpRequest]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-04-17T12:35:25.196Z] Session [52828340-236a-11e7-8132-1743a311f7a3] - page.onError - stack:
+  logError (https://static.licdn.com/sc/h/42woaq3yypf7p42krr5bszkcc,bvu2at5wltv942dt1butsct3a:92)
+
+  phantomjs://platform/console++.js:263 in error
