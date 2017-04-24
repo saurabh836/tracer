@@ -1,6 +1,7 @@
 import urllib3, certifi, json, requests, pprint
 from selenium import webdriver
 from time import sleep
+import os
 
 
 class facebook:
@@ -22,7 +23,9 @@ class facebook:
         return new_token
 
     def token_refresh(self):
-        driver = webdriver.PhantomJS(executable_path="static/phantomjs")
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        driver = webdriver.PhantomJS(executable_path=os.path.join(BASE_DIR, "static/phantomjs"))
+
         driver.get("https://www.facebook.com/login/")
         driver.find_element_by_id("email").send_keys("saurabh.sathe@cnvg.in")
         driver.find_element_by_id("pass").send_keys("saurabh.123")

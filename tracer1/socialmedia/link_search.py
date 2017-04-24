@@ -1,9 +1,11 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+import os
 
 
 class Linkedin(object):
-    driver = webdriver.PhantomJS(executable_path="static/phantomjs")
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    driver = webdriver.PhantomJS(executable_path=os.path.join(BASE_DIR, "static/phantomjs"))
 
     def link(self, nam):
         driver = self.driver
