@@ -8,6 +8,7 @@ heroku==0.1.4
 oauthlib==2.0.2
 packaging==16.8
 pprint==0.1
+psycopg2==2.7.1
 pycurl==7.43.0
 pyparsing==2.2.0
 python-dateutil==1.5
