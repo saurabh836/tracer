@@ -1,12 +1,15 @@
 appdirs==1.4.3
 certifi==2017.1.23
+dj-database-url==0.4.2
 Django==1.11
 djangorestframework==3.6.2
+heroku==0.1.4
 oauthlib==2.0.2
 packaging==16.8
 pprint==0.1
 pycurl==7.43.0
 pyparsing==2.2.0
+python-dateutil==1.5
 pytz==2017.2
 requests==2.13.0
 requests-oauthlib==0.8.0
@@ -14,3 +17,4 @@ selenium==3.3.3
 six==1.10.0
 tweepy==3.5.0
 urllib3==1.20
+waitress==1.0.2
