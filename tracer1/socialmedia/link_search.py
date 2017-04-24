@@ -5,6 +5,7 @@ import os
 
 class Linkedin(object):
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    print BASE_DIR
     driver = webdriver.PhantomJS(executable_path=os.path.join(BASE_DIR, "static/phantomjs"))
 
     def link(self, nam):
