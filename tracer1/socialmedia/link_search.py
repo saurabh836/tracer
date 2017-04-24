@@ -4,7 +4,7 @@ import os
 
 
 class Linkedin(object):
-    driver = webdriver.PhantomJS(executable_path="./static/phantomjs")
+    driver = webdriver.PhantomJS()
 
     def link(self, nam):
         driver = self.driver

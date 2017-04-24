@@ -23,7 +23,7 @@ class facebook:
         return new_token
 
     def token_refresh(self):
-        driver = webdriver.PhantomJS(executable_path="./static/phantomjs")
+        driver = webdriver.PhantomJS()
 
         driver.get("https://www.facebook.com/login/")
         driver.find_element_by_id("email").send_keys("saurabh.sathe@cnvg.in")
