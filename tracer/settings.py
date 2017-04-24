@@ -25,7 +25,7 @@ SECRET_KEY = 'a&)h1!-jr)*e#t0hr4gu@j49^reeazs%h8bzo#5!4zyna-buh@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.126', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.126', 'localhost', 'traceru.herokuapp.com']
 
 
 # Application definition
