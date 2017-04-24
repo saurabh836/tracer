@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from tracer1.socialmedia.fb_search import facebook
 from tracer1.socialmedia.link_search import Linkedin
 from tracer1.socialmedia.twitter_search import get_twitter
-from time import sleep
+from django.http import HttpResponse
 
 
 fb_api_key = "EAAPEf2NimqgBAA3OvD9BoRkjGFaBgrIYbAIlXZAHTLlfPJfaR9EwZALNR7CYTysTOdYo0SecrpkvEa5D2rB3ZB9yzD0BRpznh63kt16djaN2as3E5ERQZAtQ2H3qYuednNTjswzP6rl40jxkoZBZBDzbW9VZB9CZCOwZD"
@@ -81,3 +81,8 @@ def all_list(request):
             data = {"twitter": twitter, "facebook": facebook, "linkedin": linkedin}
             return Response(data)
 
+
+@api_view(['GET', 'POST'])
+def welcome(request):
+    if request.method == 'GET':
+        return HttpResponse("<h1>Welcome</h1>")

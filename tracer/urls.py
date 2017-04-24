@@ -20,6 +20,7 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from tracer1 import views
 
 urlpatterns = [
+    url(r'^$', views.welcome),
     url(r'^facebook/$', views.facebook_list),
     url(r'^linkedin/$', views.linkedIn_list),
     url(r'^twitter/$', views.twitter_list),
