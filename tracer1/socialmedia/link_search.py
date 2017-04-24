@@ -3,7 +3,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 class Linkedin(object):
-    driver = webdriver.PhantomJS(executable_path="tracer1/socialmedia/phantomjs")
+    driver = webdriver.PhantomJS(executable_path="static/phantomjs")
 
     def link(self, nam):
         driver = self.driver
