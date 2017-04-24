@@ -66,7 +66,7 @@ def all_list(request):
     if request.method == 'GET':
         twitter = get_twitter("Abhilash Tiwari")
         facebook = fb.profile_list("Abhilash Tiwari")
-        linkedin = get_twitter("Abhilash Tiwari")
+        linkedin = ln.chk_fun("Abhilash Tiwari")
         data = {"twitter": twitter, "facebook": facebook, "linkedin": linkedin}
         return Response(data)
     elif request.method == 'POST':
@@ -77,7 +77,7 @@ def all_list(request):
             name = request.POST.get('nam')
             twitter = get_twitter(name)
             facebook = fb.profile_list(name)
-            linkedin = get_twitter(name)
+            linkedin = ln.chk_fun(name)
             data = {"twitter": twitter, "facebook": facebook, "linkedin": linkedin}
             return Response(data)
 
