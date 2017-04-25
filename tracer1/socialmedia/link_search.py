@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import os
+from tracer.settings import pjs_root
 
 
 class Linkedin(object):
-    driver = webdriver.PhantomJS()
+    driver = webdriver.PhantomJS(executable_path=pjs_root)
 
     def link(self, nam):
         driver = self.driver
