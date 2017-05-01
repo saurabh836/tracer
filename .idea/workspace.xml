@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="098f36a5-97cc-4308-a303-70e92a7f96e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/phantomjs.exe" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/phantomjs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostdriver.log" afterPath="$PROJECT_DIR$/ghostdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracer/settings.py" afterPath="$PROJECT_DIR$/tracer/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,24 +21,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fb_search.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fb_search.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tracer1/socialmedia/fb_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-                <marker date="1493064692137" expanded="true" signature="129:2676" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="1522:1978" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="1619:1675" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2013:2676" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2091:2159" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2201:2657" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2263:2628" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2293:2519" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2553:2628" ph="..." />
-                <marker date="1493064692137" expanded="true" signature="2679:2926" ph="..." />
-              </folding>
+            <state relative-caret-position="29">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,18 +34,10 @@
       <file leaf-file-name="link_search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracer1/socialmedia/link_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1493064717245" expanded="true" signature="189:1922" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="494:1195" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="511:685" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="728:774" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="1209:1881" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="1315:1881" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="1951:2099" ph="..." />
-                <marker date="1493064717245" expanded="true" signature="2020:2077" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracer/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="139" column="5" lean-forward="true" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,16 +134,16 @@
         <option value="$PROJECT_DIR$/tracer/urls.py" />
         <option value="$PROJECT_DIR$/Procfile.windows" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/tracer/settings.py" />
+        <option value="$PROJECT_DIR$/staticfiles/staticfiles.json" />
         <option value="$PROJECT_DIR$/tracer1/socialmedia/fb_search.py" />
         <option value="$PROJECT_DIR$/tracer1/socialmedia/link_search.py" />
-        <option value="$PROJECT_DIR$/staticfiles/staticfiles.json" />
+        <option value="$PROJECT_DIR$/tracer/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -263,16 +247,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\tracer1\socialmedia" />
-      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\static" />
-      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\bin" />
       <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\staticfiles" />
       <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\static" />
       <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\tracer1\socialmedia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\bin" />
+      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\tracer1\socialmedia" />
+      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer\static" />
+      <recent name="C:\Users\HP\PycharmProjects\tracenv\tracenv\tracer" />
     </key>
   </component>
   <component name="RunManager" selected="Python.fb_search">
@@ -526,7 +511,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -594,19 +579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1493064692137" expanded="true" signature="129:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1522:1978" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1619:1675" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2013:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2091:2159" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2201:2657" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2263:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2293:2519" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2553:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2679:2926" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -616,14 +589,6 @@
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1493064717245" expanded="true" signature="189:1922" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="494:1195" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="511:685" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="728:774" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1209:1881" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1315:1881" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1951:2099" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="2020:2077" ph="..." />
           </folding>
         </state>
       </provider>
@@ -681,19 +646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="41" column="100" lean-forward="true" selection-start-line="41" selection-start-column="100" selection-end-line="41" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1493064692137" expanded="true" signature="129:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1522:1978" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1619:1675" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2013:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2091:2159" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2201:2657" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2263:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2293:2519" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2553:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2679:2926" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,14 +656,6 @@
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1493064717245" expanded="true" signature="189:1922" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="494:1195" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="511:685" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="728:774" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1209:1881" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1315:1881" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1951:2099" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="2020:2077" ph="..." />
           </folding>
         </state>
       </provider>
@@ -775,19 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1493064692137" expanded="true" signature="129:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1522:1978" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1619:1675" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2013:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2091:2159" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2201:2657" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2263:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2293:2519" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2553:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2679:2926" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,19 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1493064692137" expanded="true" signature="129:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1522:1978" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1619:1675" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2013:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2091:2159" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2201:2657" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2263:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2293:2519" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2553:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2679:2926" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,27 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracer1/socialmedia/fb_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1493064692137" expanded="true" signature="129:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1522:1978" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="1619:1675" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2013:2676" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2091:2159" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2201:2657" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2263:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2293:2519" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2553:2628" ph="..." />
-            <marker date="1493064692137" expanded="true" signature="2679:2926" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,24 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracer1/socialmedia/link_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1493064717245" expanded="true" signature="189:1922" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="494:1195" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="511:685" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="728:774" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1209:1881" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1315:1881" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="1951:2099" ph="..." />
-            <marker date="1493064717245" expanded="true" signature="2020:2077" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="89" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,8 +940,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracer/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="139" column="5" lean-forward="true" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracer1/socialmedia/link_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracer1/socialmedia/fb_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>
