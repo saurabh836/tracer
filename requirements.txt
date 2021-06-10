@@ -1,7 +1,7 @@
 appdirs==1.4.3
 certifi==2017.1.23
 dj-database-url==0.4.2
-Django==1.11
+Django==2.2.24
 djangorestframework==3.6.2
 gunicorn==19.7.1
 heroku==0.1.4
